@@ -10,7 +10,6 @@
 <script setup lang="ts">
 import { onBeforeUpdate, onMounted, onUnmounted, onUpdated, ref } from 'vue'
 import EmblaCarousel, { EmblaCarouselType } from 'embla-carousel'
-import './index.scss'
 
 const { slides } = defineProps({
   slides: {
