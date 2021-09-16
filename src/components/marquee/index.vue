@@ -86,18 +86,18 @@ onUnmounted(() => {
 </script>
 <style lang="scss">
 .vl-marquee {
-  .embla {
+  &.embla {
     max-width: 100%;
     overflow: hidden;
-  }
 
-  .embla__container {
-    display: flex;
-  }
+    .embla__container {
+      display: flex;
 
-  .embla__slide {
-    margin-right: 32px;
-    position: relative;
+      .embla__slide {
+        margin-right: 32px;
+        position: relative;
+      }
+    }
   }
 }
 </style>
